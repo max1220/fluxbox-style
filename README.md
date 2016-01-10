@@ -1,2 +1,4 @@
-# fluxbox-style
-My custom Fluxbox style
+ max1220's fluxbox style
+=========================
+
+
