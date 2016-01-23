@@ -1,0 +1,8 @@
+Dark color:
+	#484848 - Normal
+	#383838 - Darker
+
+Bright:
+	#E3E5EB - Normal
+	#D3D5DB - Darker
+	#C3C5CB - Darkest

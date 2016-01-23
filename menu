@@ -1,0 +1,32 @@
+[begin] (aigal-debian)
+	[exec] (chromium) {chromium} </usr/share/icons/Adwaita/24x24/apps/web-browser-symbolic.symbolic.png>
+	[exec] (terminal) {x-terminal-emulator} </usr/share/icons/Adwaita/24x24/apps/utilities-terminal-symbolic.symbolic.png>
+	[exec] (network) {x-terminal-emulator nmtui} </usr/share/icons/Adwaita/24x24/apps/preferences-system-network-symbolic.symbolic.png>
+	[exec] (pcmanfm) {pcmanfm} </usr/share/icons/Adwaita/24x24/apps/system-file-manager-symbolic.symbolic.png>
+	[exec] (geany) {geany} </usr/share/icons/Adwaita/24x24/apps/accessories-text-editor-symbolic.symbolic.png>
+	[exec] (htop) {x-terminal-emulator htop} </usr/share/icons/Adwaita/24x24/apps/utilities-system-monitor-symbolic.symbolic.png>
+	[exec] (run) {fbrun} </usr/share/icons/Adwaita/24x24/apps/preferences-system-search-symbolic.symbolic.png>
+	[submenu] (debian >) </usr/share/icons/Adwaita/24x24/apps/system-software-install-symbolic.symbolic.png>
+		[include] (/etc/X11/fluxbox/fluxbox-menu)
+	[end]
+	[separator]
+	[workspaces] (workspaces >)
+	[submenu] (fluxbox >)
+		[submenu] (Wallpapers >)
+			[wallpapers] (~/Wallpapers/) {fbsetbg -f}
+		[end]
+		[config] (Configuration >)
+		[submenu] (Styles >)
+			[exec] (Select GTK theme) {gtk-theme-switch2}
+			[separator]
+			[stylesdir] (/usr/share/fluxbox/styles)
+			[stylesdir] (~/.fluxbox/styles)
+		[end]
+		[separator]
+		[reconfigure] (Reconfigure)
+		[restart] (Restart)
+	[end]
+	[separator]
+	[exit] (exit) </usr/share/icons/Adwaita/24x24/actions/edit-delete-symbolic.symbolic.png>
+[end]
+
