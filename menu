@@ -4,6 +4,7 @@
 	[exec] (network) {x-terminal-emulator nmtui} </usr/share/icons/Adwaita/24x24/apps/preferences-system-network-symbolic.symbolic.png>
 	[exec] (pcmanfm) {pcmanfm} </usr/share/icons/Adwaita/24x24/apps/system-file-manager-symbolic.symbolic.png>
 	[exec] (geany) {geany} </usr/share/icons/Adwaita/24x24/apps/accessories-text-editor-symbolic.symbolic.png>
+	[exec] (mixer) {x-terminal-emulator alsamixer} </usr/share/icons/Adwaita/24x24/devices/audio-speakers-symbolic.symbolic.png>
 	[exec] (htop) {x-terminal-emulator htop} </usr/share/icons/Adwaita/24x24/apps/utilities-system-monitor-symbolic.symbolic.png>
 	[exec] (run) {fbrun} </usr/share/icons/Adwaita/24x24/apps/preferences-system-search-symbolic.symbolic.png>
 	[submenu] (debian >) </usr/share/icons/Adwaita/24x24/apps/system-software-install-symbolic.symbolic.png>
